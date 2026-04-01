@@ -10,9 +10,9 @@ Rigour Hero is a browser-based prayer flicking arcade game inspired by Old Schoo
 
 1. Go to [rigourhero.com](https://rigourhero.com).
 2. Type your RuneScape name and press Enter.
-3. Pick a boss from the boss selector. Pick a game mode from the mode selector (top right).
-4. Press Space to start the run.
-5. Prayer orbs fly toward you. Click the correct prayer to block each attack before it hits. Every correct block earns XP and extends your combo. Every miss costs HP. When your HP runs out, the run ends and your score is submitted.
+3. Pick a boss from the boss selector. Pick a game mode from the mode selector (bottom right).
+4. Activate a prayer.
+5. Attack orbs fly toward you. Click the correct prayer to block each attack before it hits. Every correct block earns XP and GP, streak, and chances at rare collection log items. your combo. Every miss costs HP. When your HP runs out, the run ends and your score is submitted.
 
 Your score equals your total XP earned that run. XP per block starts at 10 and increases by 2 for every combo you build (10, 12, 14, 16...). Longer combos mean significantly higher scores.
 
@@ -22,7 +22,7 @@ Your score equals your total XP earned that run. XP per block starts at 10 and i
 
 | Mode | HP | Lanes | Speed | Description |
 |---|---|---|---|---|
-| **Classic** | 3 | 1 | Normal | The standard experience. Three lives, one lane, full prayer HUD. Good for learning the game and grinding XP. |
+| **Classic** | 99 | 1 | Normal | The standard experience. Three lives, one lane, full prayer HUD. Good for learning the game and grinding XP Orbs deal 33 dmg. |
 | **Challenge** | 1 | 1 | Normal | Same lane, same speed -- but one mistake kills you. Increased pet chance. |
 | **Impossible (IM)** | 1 | 3 | Fast | Three lanes of orbs, faster travel time, one life. The first few orbs come in slower as a warmup, then the real speed kicks in. |
 | **Hardcore Impossible (HCIM)** | 1 | 5 | Fastest | Five lanes. One tick travel time. One life. No mercy. Best pet rates in the game. |
