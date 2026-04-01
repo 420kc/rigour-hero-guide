@@ -25,7 +25,7 @@ Your score equals your total XP earned that run. XP per block starts at 10 and i
 | **Classic** | 99 | 1 | Normal | The standard experience. Three lives, one lane, full prayer HUD. Good for learning the game and grinding XP Orbs deal 33 dmg. |
 | **Challenge** | 1 | 1 | Normal | Same lane, same speed -- but one mistake kills you. Increased pet chance. |
 | **Impossible (IM)** | 1 | 3 | Fast | Three lanes of orbs, faster travel time, one life. The first few orbs come in slower as a warmup, then the real speed kicks in. |
-| **Hardcore Impossible (HCIM)** | 1 | 5 | Fastest | Five lanes. One tick travel time. One life. No mercy. Best pet rates in the game. |
+| **Hardcore Impossible (HCIM)** | 1 | 5 | Fastest | Five lanes. One tick travel time. One life. No mercy. Brief warmup, then full speed. Best pet rates in the game. |
 
 All modes have separate leaderboards. You can cycle between them on the leaderboard screen, or view "All Modes" combined.
 
@@ -85,7 +85,7 @@ Every correct prayer block rolls for a pet from the boss you're fighting. Pet ra
 | `/gp` | Show your GP balance |
 | `/ranks` | Show all ranks and XP requirements |
 | `/changes` | Show recent game updates |
-| `/online` | Show active player count |
+| `/online` | Show online player count |
 
 ### Social
 | Command | What it does |
@@ -99,6 +99,7 @@ Every correct prayer block rolls for a pet from the boss you're fighting. Pet ra
 | `/privacy on/friends/off` | Set who can PM you |
 | `/follow <name>` | Follow a player (get notified when they log in) |
 | `/unfollow <name>` | Stop following |
+| `/following` | Show who you follow |
 | Tab | Quick reply to your last PM |
 
 ### Channels
@@ -113,8 +114,11 @@ Every correct prayer block rolls for a pet from the boss you're fighting. Pet ra
 | `/members` | List channel members |
 | `/kick <name>` | Kick someone |
 | `/ban <name>` | Ban someone |
+| `/mute <name> <duration>` | Mute a member (1m/5m/30m/1h) |
 | `/promote <name>` | Promote to admin |
 | `/motd <text>` | Set message of the day |
+| `/who` | Channel status overview |
+| `/delete confirm` | Delete your active channel |
 
 ### Utility
 | Command | What it does |
@@ -122,7 +126,7 @@ Every correct prayer block rolls for a pet from the boss you're fighting. Pet ra
 | `/vol <0-100>` | Set sound volume |
 | `/music on/off` | Toggle background music |
 | `/cengineer` | Toggle C Engineer voiceover |
-| `/pin` | Request a password for your account |
+| `/pin` | Request account password protection (sends request to admin) |
 | `/clear` | Clear the chat window |
 
 ---
@@ -131,7 +135,7 @@ Every correct prayer block rolls for a pet from the boss you're fighting. Pet ra
 
 | Input | What it does |
 |---|---|
-| Space | Start a game or focus chat |
+| Space | Start a game |
 | Tab | Quick reply to last PM |
 | Shift-click Logout | Hard refresh -- apply updates |
 | Alt-click + drag | Move HUD elements (HP orb, prayer orb, etc.) |
@@ -142,12 +146,9 @@ Every correct prayer block rolls for a pet from the boss you're fighting. Pet ra
 
 You can set a password on your account so nobody else can log in with your RSN.
 
-1. Open **Settings**.
-2. Click **Set Account Password**.
-3. An admin will enable password auth on your account.
-4. Next time you log in, you'll be prompted to create your password.
-
-Accounts with 1M+ total XP can request password protection at any time.
+1. Open **Settings** and click **Set Account Password**, or type `/pin` in chat.
+2. Your request is sent to an admin for approval.
+3. Once approved, you'll be prompted to create your password on your next login.
 
 ---
 
